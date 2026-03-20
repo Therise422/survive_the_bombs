@@ -21,7 +21,8 @@ public class Fire : MonoBehaviour
 
     void OnFire() 
     {
-        Vector3 direction = target.position - bulletOrigin.position ;
+        Vector3 direction = target.position - bulletOrigin.position;
+        direction = direction.normalized;
         GameObject clone = Instantiate(projectile,bulletOrigin.position, Quaternion.identity);
 
         clone.GetComponent<Rigidbody>().AddForce(direction * fireForce, ForceMode.Impulse);
