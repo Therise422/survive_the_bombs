@@ -6,12 +6,7 @@ public class Reticle : MonoBehaviour
     public float depth = 5f;
     public LayerMask targetMask;
     public Transform target;
-    private Camera screenCamera;
-
-    void Awake()
-    {
-        screenCamera = GetComponentInParent<Camera>();
-    }
+    [SerializeField] private Camera screenCamera;
 
     void Update()
     {

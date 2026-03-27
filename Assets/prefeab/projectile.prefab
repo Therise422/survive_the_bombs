@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2561079238552217171}
   - component: {fileID: 6769317892431501788}
   - component: {fileID: 816221214680123673}
+  - component: {fileID: 3178740237715552566}
   - component: {fileID: 1230762834576407041}
   - component: {fileID: 6921449158302485775}
   m_Layer: 7
@@ -92,6 +93,18 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3178740237715552566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1736496429881057618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80faf5efe5146954aad1384576303861, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Bullet
 --- !u!135 &1230762834576407041
 SphereCollider:
   m_ObjectHideFlags: 0
